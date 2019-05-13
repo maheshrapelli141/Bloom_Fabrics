@@ -1,0 +1,119 @@
+.navbar-brand {
+    font-weight : bold;
+}
+.carousel-item{
+  height:550px;
+  width : 100%;
+}
+.about-section {
+    padding-top : 60px;
+    padding-bottom : 60px;
+}
+.about-section {
+    text-align:center;
+}
+.about-section p{
+    text-align:center;
+}
+.products-section {
+    background-color : #eeeeee;
+    padding-top : 60px;
+    padding-bottom : 60px;
+}
+.card {
+    text-align :center;
+    height:450px;
+    padding : 16px;
+    position : relative;
+    text-align : center;
+}
+.card img {
+    height : 100%;
+    width : 90%;
+    margin-bottom : 24px;
+}
+.layer {
+    position : absolute;
+    top : 0px;
+    right : 0px;
+    height: 100%;
+    width : 0%;
+    background-color: #343a40;
+    color: #ffffff;
+    overflow : hidden;
+}
+.layer h4 {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+.card:hover > .layer {
+    width : 100%;
+    transition : .3s;
+}
+.buss-opt-section {
+    padding-top : 60px;
+    padding-bottom : 60px;
+    text-align: center;
+    background-color : #343a40;
+    color : #ffffff;
+}
+.buss-opt-section ul {
+    text-align : left;
+}
+.buss-opt-section ul li{
+    padding : 12px;
+}
+.fa-check {
+    padding-right : 15px;
+}
+.packs-section {
+    padding : 60px 0px;
+    text-align: center;
+}
+/* hr {
+    border-bottom : 1px solid #343a40;
+} */
+.pack-card {
+    border: 1px solid #343a40;
+    text-align : center;
+    margin : 25px;
+    border-radius : 10px;
+    box-shadow : 0px 0px 5px #343a40;
+    overflow : hidden;
+}
+.pack-card h4{
+    border-bottom : 1px solid #343a40;
+    padding : 15px;
+    background-color : #343a40;
+    color : #ffffff;
+}
+.dark-line {
+    border-bottom : 1px solid black;
+}
+.contact-section {
+    padding : 60px 0px;
+}
+.contact-section h3{
+    text-align : center;
+}
+.form-section {
+    padding : 15px;
+}
+.footer {
+    background-color : #343a40;
+    color : #ffffff;
+    text-align : center;
+    padding : 20px 0px;
+}
+* { border: 1px solid red;}
+@media screen and (max-width: 600px) {
+    .carousel-item{
+        width : 100%;
+        height : auto;
+    }
+    .pack-card {
+        margin : 10px;
+    }
+}
